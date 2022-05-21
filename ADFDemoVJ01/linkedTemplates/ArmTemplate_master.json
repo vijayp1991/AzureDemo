@@ -31,7 +31,7 @@
 			"type": "string",
 			"defaultValue": "@{linkedService().sourceBaseURL}"
 		},
-		"tr_ingest_population_data_properties_typeProperties_scope": {
+		"tr_population_data_arrives_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/9939e5cf-94a6-4691-96e9-439b330d7d78/resourceGroups/AzureDemoProject/providers/Microsoft.Storage/storageAccounts/sacovidreporting01"
 		},
@@ -98,8 +98,8 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"tr_ingest_population_data_properties_typeProperties_scope": {
-						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
+					"tr_population_data_arrives_properties_typeProperties_scope": {
+						"value": "[parameters('tr_population_data_arrives_properties_typeProperties_scope')]"
 					}
 				}
 			},

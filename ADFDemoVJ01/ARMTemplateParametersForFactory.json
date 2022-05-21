@@ -23,7 +23,7 @@
 		"ls_http_opendata_ecdc_properties_typeProperties_url": {
 			"value": "@{linkedService().sourceBaseURL}"
 		},
-		"tr_ingest_population_data_properties_typeProperties_scope": {
+		"tr_population_data_arrives_properties_typeProperties_scope": {
 			"value": "/subscriptions/9939e5cf-94a6-4691-96e9-439b330d7d78/resourceGroups/AzureDemoProject/providers/Microsoft.Storage/storageAccounts/sacovidreporting01"
 		}
 	}
