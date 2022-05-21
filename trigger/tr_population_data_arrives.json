@@ -1,5 +1,5 @@
 {
-	"name": "trigger_opulation_data_arrives",
+	"name": "tr_population_data_arrives",
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Started",
