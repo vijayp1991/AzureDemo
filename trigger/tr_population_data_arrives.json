@@ -1,19 +1,19 @@
 {
-	"name": "tr_ingest_population_data",
+	"name": "tr_population_data_arrives",
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Started",
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "pl_ingest_population_data",
+					"referenceName": "pl_execute_population_pipelines",
 					"type": "PipelineReference"
 				}
 			}
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/population/blobs/population_by_age.tsv.gz",
+			"blobPathBeginsWith": "/population/blobs/population_by_age_tsv.gz",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/9939e5cf-94a6-4691-96e9-439b330d7d78/resourceGroups/AzureDemoProject/providers/Microsoft.Storage/storageAccounts/sacovidreporting01",
 			"events": [
