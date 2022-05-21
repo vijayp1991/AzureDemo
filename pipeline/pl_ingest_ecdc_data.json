@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Lookup ecdc file list",
+				"name": "Lookup ecdc file list Git test",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -38,7 +38,7 @@
 				"type": "ForEach",
 				"dependsOn": [
 					{
-						"activity": "Lookup ecdc file list",
+						"activity": "Lookup ecdc file list Git test",
 						"dependencyConditions": [
 							"Succeeded"
 						]
