@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFDemoVJ01"
+		},
+		"is_adb_covid_cluster_accessToken": {
+			"value": ""
+		},
+		"ls_ablob_sacovidreporting_connectionString": {
+			"value": ""
+		},
+		"ls_adls_adlscovidreporting_accountKey": {
+			"value": ""
+		},
+		"ls_sql_covid_db_connectionString": {
+			"value": ""
+		},
+		"ls_adls_adlscovidreporting_properties_typeProperties_url": {
+			"value": "https://adlscovidreporting018.dfs.core.windows.net"
+		},
+		"ls_http_opendata_ecdc_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/9939e5cf-94a6-4691-96e9-439b330d7d78/resourceGroups/AzureDemoProject/providers/Microsoft.Storage/storageAccounts/sacovidreporting01"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
