@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Lookup ecdc file list",
+				"name": "Lookup ecdc files list",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -38,7 +38,7 @@
 				"type": "ForEach",
 				"dependsOn": [
 					{
-						"activity": "Lookup ecdc file list",
+						"activity": "Lookup ecdc files list",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -47,7 +47,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('Lookup ecdc file list').output.value",
+						"value": "@activity('Lookup ecdc files list').output.value",
 						"type": "Expression"
 					},
 					"isSequential": true,
